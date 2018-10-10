@@ -1,0 +1,368 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+
+@media (max-width: 320px) {}
+
+@media (min-width: 321px) and (max-width: 412px) {
+    .header_nav ul li a {
+        width: 110px;
+        float: right;
+        text-align: center;
+        margin: 0;
+    }
+    .col_screen_padding {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .inner_items {
+        width: 100%;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .slider_text {
+        text-align: center;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        margin-bottom: 20px;
+    }
+
+    .slider_text h1 {
+        font-size: 35px;
+        margin-bottom: 0;
+    }
+
+    .slider_text p {
+        font-size: 13px;
+    }
+
+    .slider_pic_inner {
+        height: 274px;
+        width: 274px;
+        margin-right: auto;
+    }
+
+    .slider_pic_inner img {
+        height: 230px;
+        width: 230px;
+    }
+
+    .slider_inner {
+        padding-bottom: 20px;
+    }
+    
+    
+        .service_top {
+        padding: 30px 6px;
+    }
+
+    .single_padding {
+        margin-bottom: 20px;
+    }
+
+    .single_service {
+        height: auto;
+    }
+
+    .single_service p {
+        font-size: 18px;
+        padding: 20px 14px;
+    }
+
+    .service_top {
+        padding: 0;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .latest_work_head h1 {
+        width: 50%;
+        font-size: 16px;
+        bottom: -17px;
+    }
+
+    .service_bottom {
+        padding-bottom: 10px;
+        padding-top: 30px;
+    }
+
+    .service_bottom_margin {
+        margin-bottom: 20px;
+    }
+    
+    .latest_work_p1{
+        font-size: 11px;
+    }
+    
+    .latest_work_p2{
+        font-size: 11px;
+    }
+    
+    .latest_work_p3{
+        font-size: 11px;
+    }
+    
+    .latest_work_p4{
+        font-size: 11px;
+    }
+    
+    .latest_work_p5{
+        font-size: 11px;
+    }
+    
+    .latest_work_p6{
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 413px) and (max-width: 575px) {
+    .header_nav ul li a {
+        width: 110px;
+        float: right;
+        text-align: center;
+        margin: 0;
+    }
+
+    .slider_text {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .slider_text h1 {
+        font-size: 35px;
+        margin-bottom: 0;
+    }
+
+    .slider_text p {
+        font-size: 13px;
+    }
+
+    .slider_pic_inner {
+        height: 300px;
+        width: 300px;
+        margin-right: auto;
+    }
+
+    .slider_pic_inner img {
+        height: 256px;
+        width: 256px;
+    }
+
+    .slider_inner {
+        padding-bottom: 20px;
+    }
+
+    .service_top {
+        padding: 30px 6px;
+    }
+
+    .single_padding {
+        margin-bottom: 20px;
+    }
+
+    .single_service {
+        height: auto;
+    }
+
+    .single_service p {
+        font-size: 18px;
+        padding: 20px 14px;
+    }
+
+    .service_top {
+        padding: 0;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .latest_work_head h1 {
+        width: 50%;
+        font-size: 22px;
+        bottom: -20px;
+    }
+
+    .service_bottom {
+        padding-bottom: 10px;
+        padding-top: 30px;
+    }
+
+    .service_bottom_margin {
+        margin-bottom: 20px;
+    }
+
+
+}
+
+
+/*Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .header_nav ul li a {
+        width: 110px;
+        float: right;
+        text-align: center;
+        margin: 0;
+    }
+
+    .slider_text {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .slider_text h1 {
+        font-size: 35px;
+        margin-bottom: 0;
+    }
+
+    .slider_text p {
+        font-size: 15px;
+    }
+
+    .slider_pic_inner {
+        height: 300px;
+        width: 300px;
+        margin-right: auto;
+    }
+
+    .slider_pic_inner img {
+        height: 256px;
+        width: 256px;
+    }
+
+    .slider_inner {
+        padding-bottom: 20px;
+    }
+
+    .single_padding {
+        margin-bottom: 20px;
+    }
+
+    .single_service p {
+        font-size: 18px;
+        padding: 20px 14px;
+    }
+
+    .service_top {
+        padding: 0;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .latest_work_head h1 {
+        width: 50%;
+        font-size: 31px;
+    }
+
+    .service_bottom {
+        padding-bottom: 10px;
+        padding-top: 30px;
+    }
+
+    .service_bottom_margin {
+        margin-bottom: 20px;
+    }
+
+
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .header_nav ul li a {
+        padding-left: 3px !important;
+        padding-right: 3px !important;
+        margin: 0 1px;
+    }
+
+    .slider_text h1 {
+        font-size: 35px;
+    }
+
+    .slider_text p {
+        font-size: 16px;
+    }
+
+    .slider_pic_inner {
+        height: 330px;
+        width: 330px;
+    }
+
+    .slider_pic_inner img {
+        height: 286px;
+        width: 286px;
+    }
+
+    .custom_prev_icn {
+        right: 50px;
+    }
+
+    .custom_nxt_icn {
+        left: 50px;
+    }
+
+    .single_service h1 {
+        font-size: 29px;
+
+    }
+
+    .single_service p {
+        font-size: 14px;
+        padding: 5px 4px;
+    }
+
+    .latest_work_head h1 {
+        font-size: 22px;
+        bottom: -20px;
+        width: 28%;
+        padding: 7px 18px;
+    }
+
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) and (max-width: 1134px) {
+
+
+    .custom_prev_icn {
+        right: 85px;
+    }
+    .custom_nxt_icn {
+        left: 85px;
+    }
+}
+
+
+@media (min-width: 1135px) and (max-width: 1199.98px) {
+    
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {
+
+    .custom_prev_icn {
+        right: 100px;
+
+    }
+
+    .custom_nxt_icn {
+        left: 100px;
+
+    }
+    
+    .single_service{
+        height: 260px;
+    }
+
+}
